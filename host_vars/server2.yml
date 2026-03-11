@@ -1,0 +1,6 @@
+users:
+  - name: user3
+    key: user3key
+
+  - name: user4
+    key: user4key
