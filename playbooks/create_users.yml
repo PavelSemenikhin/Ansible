@@ -20,7 +20,7 @@
       debug:
         msg: "User {{ item.name }} created successfully"
       loop: "{{ users }}"
-      when: user_creation_result is changed
+      when: item.changed
 
 
     - name: Add SSH keys
