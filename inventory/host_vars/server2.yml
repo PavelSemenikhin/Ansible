@@ -1,6 +1,8 @@
 users:
   - name: user3
     key: user3key
+    state: examplestate #present or absent
 
   - name: user4
     key: user4key
+    state: examplestate #present or absent

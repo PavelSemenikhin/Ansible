@@ -1,6 +1,8 @@
 users:
   - name: user1
     key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHJRn9SnhdlfnLj/PRS5hW4HrZgf7OfsUweVvXv99Ld7 p.semenikhin@uapp-llc.com"
+    state: present
 
   - name: user2
     key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHJRn9SnhdlfnLj/PRS5hW4HrZgf7OfsUweVvXv99Ld7 p.semenikhin@uapp-llc.com"
+    state: absent
